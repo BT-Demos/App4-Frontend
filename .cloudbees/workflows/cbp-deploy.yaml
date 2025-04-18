@@ -27,5 +27,5 @@ jobs:
         with:
           name: ${{ inputs.artifactName }}
           version: ${{ inputs.artifactVersion }}
-          url: docker.io/App3/${{ inputs.artifactName }}:${{ inputs.artifactVersion }}
+          url: docker.io/App4/${{ inputs.artifactName }}:${{ inputs.artifactVersion }}
           target-environment: ${{ inputs.environment }}
